@@ -1,0 +1,164 @@
+@font-face {
+	font-family: IBM Plex Sans B;
+	src: url('/Public/Fonts/IBM_Plex_Sans/IBMPlexSans-Bold.ttf')  format('truetype');
+}
+@font-face {
+	font-family: IBM Plex Sans N;
+	src: url('/Public/Fonts/IBM_Plex_Sans/IBMPlexSans-Regular.ttf')  format('truetype');
+}
+@font-face {
+	font-family: IBM Plex Sans M;
+	src: url('/Public/Fonts/IBM_Plex_Sans/IBMPlexSans-Medium.ttf')  format('truetype');
+}
+body{
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	opacity: 1;
+}
+.login{
+	opacity: 1;
+	width:375px;
+	height:405px;
+}
+.login-text{
+	text-align: left;
+	font: normal normal bold 30px/1px IBM Plex Sans B;
+	letter-spacing: 0px;
+	color: #461143;
+	opacity: 1;
+}
+.form-1{
+	padding-top:35px;
+}
+input{
+	width: 425px;
+	height: 55px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+	border: 1px solid #707070;
+	border-radius: 0px 20px;
+	opacity: 1;
+}
+.content{
+	text-align: left;
+	font: normal normal normal 20px/1px IBM Plex Sans N;
+	letter-spacing: 0px;
+	color: #ADADAD;
+	opacity: 1;
+	padding-left: 30px;
+}
+.buttons{
+	width: 425px;
+	height: 55px;
+	background: #461143 0% 0% no-repeat padding-box;
+	border-radius: 0px 20px;
+	opacity: 1;
+}
+.buttons-spec{
+	width: 76px;
+	height: 33px;
+	text-align: center;
+	font: normal normal 600 25px/1px IBM Plex Sans N;
+	letter-spacing: 0px;
+	color: #FFFFFF;
+	opacity: 1;
+}
+.register{
+	width: 700px;
+	height: 140px;
+}
+.register-text{
+	text-align: left;
+	font: normal normal bold 30px/1px IBM Plex Sans B;
+	letter-spacing: 0px;
+	color: #461143;
+	opacity: 1;
+}
+#extra-text-1,#extra-text-2{
+	text-align: left;
+	letter-spacing: 0px;
+	color: #CB0808;
+	opacity: 1;
+	font: normal normal 600 20px/23px AppleSystemUIFont;
+}
+.mainnav{
+	background-color: #461143;
+}
+.navleft{
+    width: 167px;
+    height: 55px;
+    text-align: left;
+    font: normal normal normal 36px/55px Badler;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.nav-text{
+	text-align: left;
+font: normal normal normal 20px/25px IBM Plex Sans N;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+width: 190px;
+height: 25px;
+}
+.events-text{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 85px;
+text-align: left;
+text-decoration: underline;
+font: normal normal bold 22px/29px IBM Plex Sans B;
+letter-spacing: 0px;
+color: #461143;
+opacity: 1;
+}
+.events-text-2{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 85px;
+text-align: left;
+text-decoration: none;
+font: normal normal bold 22px/29px IBM Plex Sans B;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.mainbox{
+	background-color: #FFFFFF;
+	margin-top: 40px;
+    margin-right: 100px;
+    margin-left: 100px;
+	margin-bottom: 100px;
+}
+.add{
+	width: 218px;
+    height: 45px;
+    font: normal normal medium 20px/1px IBM Plex Sans M;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    background: #461143 0% 0% no-repeat padding-box;
+    border-radius: 0px 20px;
+    opacity: 1;
+	padding: 5px;
+}
+.addEventText{
+	width: 152px;
+height: 42px;
+text-align: left;
+font: normal normal 600 32px/42px IBM Plex Sans N;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}
+.addEvent{
+	width: 132px;
+height: 39px;
+background: #461143 0% 0% no-repeat padding-box;
+border-radius: 0px 20px;
+opacity: 1;
+}
+.user-text{
+	font: normal normal normal 17px/23px IBM Plex Sans;
+letter-spacing: 0px;
+color: #000000;
+opacity: 1;
+}

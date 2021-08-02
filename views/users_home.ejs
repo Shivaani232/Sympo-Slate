@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sympo Slate</title>
+	<link rel="stylesheet" href="/Public/Css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body style="background-color: #ECECEC;">
+    <nav class="navbar navbar-inverse mainnav">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <img src="/Public/Images/Logo.png" alt="" width="375px" height="65px" style="padding-left: 60px;">
+          </div>
+          <ul class="nav navbar-nav navbar-right nav-text">
+            <li><a href="/login" style="text-decoration: none; color: white;">Hi <%=  username%> | Logout</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div style="background-color: white;">
+        <ul style="padding:10px;">
+            <li style="display: inline;" class="events-text"><a href="/user_home" style="text-decoration: none;color: #461143;">All Events</a></li>
+            <li style="display: inline;" class="events-text-2"><a href="/user_home_cal" style="text-decoration: none;color: black;">My Calendar</a></li>
+        </ul>
+    </div>
+    <br>
+    <div class="mainbox">
+        <br>
+        <div class="events-text" style="text-decoration: none;">All Events</div>
+        <img src="/Public/Images/nodata.png" alt="" width="900px" height="400px" style="padding-left: 480px;">
+        <br><br><br><br>
+    </div>
+</body>
+</html>

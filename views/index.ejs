@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sympo Slate</title>
+	<link rel="stylesheet" href="/Public/Css/style.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<a onclick="addText()"><img src="/Public/Images/Login.png" alt="Login" class="login" style="padding-top: 40px;"></a>
+				<br><br>
+				<div class="login-text">Login</div>
+				<form action="/login" class="form-1" method="POST">
+					<br>
+					<div>
+						<input type="text" class="content" placeholder="Username" id="username" name="username" required>
+					</div>
+					<br>
+					<div> 
+						<input type="password" class="content" placeholder="Password" id="password" name="password" required>
+					</div>
+					<br>
+					<div>
+						<p id="extra-text-1"></p>
+						<button type="submit" class="buttons"><span class="buttons-spec">LOGIN</span></button>
+					</div>
+					<br>
+				</form>
+			</div>
+			<div class="col-md-8">
+				<img src="/Public/Images/Register.png" alt="Register"class="register" style="padding-left: 195px; padding-top: 45px;">
+				<br><br><br>
+				<div class="register-text"  style="padding-left: 280px;padding-top: 15px">Register</div>
+				<form action="/register" class="form-2"  style="padding-left: 280px" method="POST">
+					<br><br>
+					<div>
+						<input type="text" class="content" placeholder="Your Name" id="name">
+					</div>
+					<br>
+					<div> 
+						<input type="number" class="content" placeholder="Register ID" id="reg">
+					</div>
+					<br>
+					<div> 
+						<input type="email" class="content" placeholder="Email ID" id="emailid">
+					</div>
+					<br>
+					<div> 
+						<input type="text" class="content" placeholder="Username" id="username1" name="username">
+					</div>
+					<br>
+					<div> 
+						<input type="password" class="content" placeholder="Password" id="password1" name="password">
+					</div>
+					<br>
+					<div>
+						<p id="extra-text-2"></p>
+						<button type="submit" class="buttons"><span class="buttons-spec">REGISTER</span></button>
+					</div>
+					<br>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+<script>
+	function addText() {
+		var x = document.getElementById("extra-text-1");
+		var y = document.getElementById("extra-text-2")
+		if (x.innerHTML === ""&&y.innerHTML === "") {
+			x.innerHTML = "Incorrect Username or Password";
+			y.innerHTML="All Fields are Required";
+		} else {
+			x.innerHTML = "";
+			y.innerHTML = "";
+		}
+	}
+</script>
+</html>
